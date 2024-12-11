@@ -1,0 +1,25 @@
+case = RuO2.mcif
+cif2indmf_flags = -w -m
+u_value = 6.0
+init_lapw_flags = -b -red 0
+vxc_value = 13
+ecut = -7.0
+numk = 80
+numk_dmft = 1000
+------maxentpara------
+statistics = fermi
+Ntau = 400
+L = 30.0
+x0 = 0.01
+bwdth = 0.004
+Nw = 450
+gwidth = 30.0
+idg = 1
+deltag = 0.005
+Asteps = 4000
+alpha0 = 1000
+min_ratio = 0.001
+iflat = 1
+Nitt = 1000
+Nr = 0
+Nf = 40
