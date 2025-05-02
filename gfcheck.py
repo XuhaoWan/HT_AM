@@ -5,7 +5,6 @@ from pathlib import Path
 
 
 def trim_to_min_rows(data1, data2):
-    """裁剪两个数组，使其行数相同"""
     min_rows = min(len(data1), len(data2))
     return data1[:min_rows], data2[:min_rows]
 
